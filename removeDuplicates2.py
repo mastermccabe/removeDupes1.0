@@ -4,7 +4,7 @@ def removeDups(string):
     for x in string:
         if x not in temp:
             temp.append(x)
-            
+
     sortedString = ''.join(temp)
 
     # temp.sort()
