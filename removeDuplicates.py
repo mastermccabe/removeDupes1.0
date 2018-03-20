@@ -18,5 +18,5 @@ def removeDups(immutableString):
 
 
 
-string = "geeksforgeeks"
+string = "geeksforgeeksasdfbsadfjkdsfjksdjfksjdfksjdkfjskdfjskdjfksjdfk"
 print removeDups(string)
