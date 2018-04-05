@@ -1,9 +1,11 @@
 def distinctPairsSet(arr, n, k):
     count = 0
     arr.sort()
+    # 1,2,3,4,5,6,9
     print(arr)
+    r=0 # 1
     l=0
-    r=0
+
     while (r < len(arr)):
 
         if(arr[r] - arr[l] == k):
@@ -19,8 +21,8 @@ def distinctPairsSet(arr, n, k):
 
 # O(nlogn)
 
-arr = [1, 5, 3, 4, 2, 6, 9]
+arr = [1, 5, 3, 4, 6, 9]
 # 1,2,3,4,5
 n = len(arr)
-k = 3
+k = 1
 print ("count of pairs with given diff is ", distinctPairsSet(arr, n, k))
